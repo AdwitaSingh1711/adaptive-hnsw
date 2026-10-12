@@ -1,0 +1,43 @@
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Generated datasets and downloaded benchmarks
+data/
+datasets/
+*.h5
+*.hdf5
+*.fvecs
+*.bvecs
+*.ivecs
+*.npy
+*.npz
+
+# Experiment outputs and generated artifacts
+outputs/
+results/
+logs/
+*.log
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
